@@ -44,7 +44,7 @@ int main(int argc, const char * argv[]) {
                     NSString *contactName = [NSString stringWithUTF8String:name];
                     // remove newLine
                     contactName = [contactName stringByReplacingOccurrencesOfString:@"\n" withString:@""];
-                    NSLog(@"Enter Phone Number");
+                    NSLog(@"Enter Phone Number (11 digits only accepted)");
                     fgets(phone, sizeof(phone), stdin);
                     NSString *contactaPhone = [NSString stringWithUTF8String:phone];
                     // remove newLine
@@ -70,7 +70,7 @@ int main(int argc, const char * argv[]) {
                     NSString *contactName = [NSString stringWithUTF8String:name];
                     // remove newLine
                     contactName = [contactName stringByReplacingOccurrencesOfString:@"\n" withString:@""];
-                    NSLog(@"Enter Phone Number");
+                    NSLog(@"Enter Phone Number (11 digits only accepted)");
                     fgets(phone, sizeof(phone), stdin);
                     NSString *contactaPhone = [NSString stringWithUTF8String:phone];
                     // remove newLine

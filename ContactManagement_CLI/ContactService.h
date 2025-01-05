@@ -18,6 +18,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)addContact:(Contact *) contact;
 - (void)updateContactAtIndex:(NSUInteger) index withContact: (Contact *) contactNew;
 - (void)deleteContactAtIndex:(NSUInteger)index;
+//- (BOOL)checkPhoneIsValid:(NSString*) phone;
 
 @end
 NS_ASSUME_NONNULL_END
